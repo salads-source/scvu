@@ -1,0 +1,5 @@
+VENV = /Users/ron.quah/PycharmProjects/scvu/venv
+PYTHON = $(VENV)/bin/python3.9
+
+run: $(VENV)/bin/activate
+	$(PYTHON) /Users/ron.quah/PycharmProjects/scvu/ration_form.py
